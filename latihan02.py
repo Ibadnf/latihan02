@@ -7,3 +7,7 @@ if mylist==2:
 	print('Bener')
 else:
 	print('Salah')
+
+
+mystring=["contoh aja"]
+print(mystring)
