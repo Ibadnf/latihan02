@@ -28,6 +28,13 @@ while True:
 
 # continue
 for x in range(10):
+<<<<<<< HEAD
 	if x % 2 == 0:
 		continue
 	print(x)
+=======
+	if x % 2 == 0:	# Pembagi (mod)
+		continue
+	print(x)
+
+>>>>>>> loops
