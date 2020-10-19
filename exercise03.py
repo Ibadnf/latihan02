@@ -16,3 +16,16 @@ while index < len(lst):
 
 for x in lst:
 	print(x)
+
+def bagiTiga(parameter):
+	for b in range(parameter):
+		if b == 0:
+			continue
+		if b % 3 == 0:
+			print(b)
+
+bagiTiga(15)
+
+# bisa pake return
+#	if parameter == "" or parameter == "0"
+#		return
