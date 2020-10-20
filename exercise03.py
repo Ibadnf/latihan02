@@ -14,18 +14,34 @@ while index < len(lst):
 	print(lst[index])
 	index += 1
 
-for x in lst:
-	print(x)
 
-def bagiTiga(parameter):
+def bagiTiga(parameter = None):
+	if parameter == None or parameter <3:
+		return
 	for b in range(parameter):
 		if b == 0:
 			continue
 		if b % 3 == 0:
 			print(b)
 
-bagiTiga(15)
+bagiTiga(16)
 
 # bisa pake return
 #	if parameter == "" or parameter == "0"
 #		return
+
+
+def bagiEmpat(num = None):
+	if num == None or num <3:
+		return
+
+	index = 1
+
+	while index < num:
+		if index == 0:
+			continue
+		if index % 4 == 0:
+			print(index)
+		index += 1
+
+bagiEmpat(17)
